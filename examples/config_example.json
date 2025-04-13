@@ -1,16 +1,16 @@
 {
     "job_parameters": {
         "gpu_type": "NVIDIATITANRTX",
-        "logfile_dir": "/path/to/logdir/",
+        "logfile_dir": "/Users/agreic/Documents/GitHub/model-runner/del/",
         "memory": 4000,
         "ngpus": 2,
         "njobs_parallel": 4,
         "processor_cores": 16,
-        "run_time": "3:00",
+        "run_time": "00:03:00",
         "scratch": 4000
     },
     "job_prefix": "my_experiment",
-    "output_base_dir": "/path/to/output/dir/",
+    "output_base_dir": "/Users/agreic/Documents/GitHub/model-runner/del/",
     "runner": "my_runner.py",
     "runner_parameters": {
         "augment": [
