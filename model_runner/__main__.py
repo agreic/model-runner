@@ -32,4 +32,5 @@ def main():
     )
 
     # submit the job
+    # print(f"Running command: {job_array_command}")
     os.system(job_array_command)

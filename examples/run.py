@@ -15,7 +15,7 @@ config = {
         "lr": [5e-05, 0.001],
     },
     "job_parameters": {
-        "gpu_type": "TITANRTX",
+        "gpu_type": "v100",
         "logfile_dir": file_dir,
         "memory": 200,
         "ngpus": 1,
@@ -35,4 +35,5 @@ with open(config_path, 'w') as f:
 
 # run
 run_command = f'model_runner --params {config_path}'
+print(f"Running command: {run_command}")
 os.system(run_command)

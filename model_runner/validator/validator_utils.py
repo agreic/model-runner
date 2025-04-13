@@ -97,6 +97,7 @@ class JobArrayModel(BaseModel):
             "NVIDIATITANRTX",
             "TeslaV100_SXM2_32GB",
             "A100_PCIE_40GB",
+            "v100"
         ]
 
         if v not in gpu_list:

@@ -19,4 +19,5 @@ def main():
     # json number keys are saved as strings
     job_params = params[str(job_id)]
     run_command = create_run_command(job_params)
+    print(f"Running command: {run_command}")
     os.system(run_command)

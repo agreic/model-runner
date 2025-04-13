@@ -1,0 +1,29 @@
+{
+    "job_parameters": {
+        "logfile_dir": "/Users/agreic/Documents/GitHub/model-runner/examples/test/",
+        "memory": 4000,
+        "njobs_parallel": 4,
+        "processor_cores": 16,
+        "run_time": "3:00",
+        "scratch": 4000
+    },
+    "job_prefix": "my_experiment",
+    "output_base_dir": "/Users/agreic/Documents/GitHub/model-runner/examples/test/",
+    "runner": "/Users/agreic/Documents/GitHub/model-runner/examples/test/print.py",
+    "runner_parameters": {
+        "augment": [
+            true,
+            false
+        ],
+        "batch_size": [
+            2
+        ],
+        "data": [
+            "/Users/agreic/Documents/GitHub/model-runner/examples/test.json"
+        ],
+        "lr": [
+            5e-05,
+            0.001
+        ]
+    }
+}

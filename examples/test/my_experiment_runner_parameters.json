@@ -1,0 +1,122 @@
+{
+    "1": {
+        "augment": true,
+        "batch_size": 2,
+        "data": "/Users/agreic/Documents/GitHub/model-runner/examples/test.json",
+        "job_index": 1,
+        "job_prefix": "my_experiment",
+        "lr": 5e-05,
+        "output_base_dir": "/Users/agreic/Documents/GitHub/model-runner/examples/test/",
+        "runner": "/Users/agreic/Documents/GitHub/model-runner/examples/test/print.py"
+    },
+    "2": {
+        "augment": true,
+        "batch_size": 2,
+        "data": "/Users/agreic/Documents/GitHub/model-runner/examples/test.json",
+        "job_index": 2,
+        "job_prefix": "my_experiment",
+        "lr": 0.001,
+        "output_base_dir": "/Users/agreic/Documents/GitHub/model-runner/examples/test/",
+        "runner": "/Users/agreic/Documents/GitHub/model-runner/examples/test/print.py"
+    },
+    "3": {
+        "augment": true,
+        "batch_size": 16,
+        "data": "/Users/agreic/Documents/GitHub/model-runner/examples/test.json",
+        "job_index": 3,
+        "job_prefix": "my_experiment",
+        "lr": 5e-05,
+        "output_base_dir": "/Users/agreic/Documents/GitHub/model-runner/examples/test/",
+        "runner": "/Users/agreic/Documents/GitHub/model-runner/examples/test/print.py"
+    },
+    "4": {
+        "augment": true,
+        "batch_size": 16,
+        "data": "/Users/agreic/Documents/GitHub/model-runner/examples/test.json",
+        "job_index": 4,
+        "job_prefix": "my_experiment",
+        "lr": 0.001,
+        "output_base_dir": "/Users/agreic/Documents/GitHub/model-runner/examples/test/",
+        "runner": "/Users/agreic/Documents/GitHub/model-runner/examples/test/print.py"
+    },
+    "5": {
+        "augment": true,
+        "batch_size": 32,
+        "data": "/Users/agreic/Documents/GitHub/model-runner/examples/test.json",
+        "job_index": 5,
+        "job_prefix": "my_experiment",
+        "lr": 5e-05,
+        "output_base_dir": "/Users/agreic/Documents/GitHub/model-runner/examples/test/",
+        "runner": "/Users/agreic/Documents/GitHub/model-runner/examples/test/print.py"
+    },
+    "6": {
+        "augment": true,
+        "batch_size": 32,
+        "data": "/Users/agreic/Documents/GitHub/model-runner/examples/test.json",
+        "job_index": 6,
+        "job_prefix": "my_experiment",
+        "lr": 0.001,
+        "output_base_dir": "/Users/agreic/Documents/GitHub/model-runner/examples/test/",
+        "runner": "/Users/agreic/Documents/GitHub/model-runner/examples/test/print.py"
+    },
+    "7": {
+        "augment": false,
+        "batch_size": 2,
+        "data": "/Users/agreic/Documents/GitHub/model-runner/examples/test.json",
+        "job_index": 7,
+        "job_prefix": "my_experiment",
+        "lr": 5e-05,
+        "output_base_dir": "/Users/agreic/Documents/GitHub/model-runner/examples/test/",
+        "runner": "/Users/agreic/Documents/GitHub/model-runner/examples/test/print.py"
+    },
+    "8": {
+        "augment": false,
+        "batch_size": 2,
+        "data": "/Users/agreic/Documents/GitHub/model-runner/examples/test.json",
+        "job_index": 8,
+        "job_prefix": "my_experiment",
+        "lr": 0.001,
+        "output_base_dir": "/Users/agreic/Documents/GitHub/model-runner/examples/test/",
+        "runner": "/Users/agreic/Documents/GitHub/model-runner/examples/test/print.py"
+    },
+    "9": {
+        "augment": false,
+        "batch_size": 16,
+        "data": "/Users/agreic/Documents/GitHub/model-runner/examples/test.json",
+        "job_index": 9,
+        "job_prefix": "my_experiment",
+        "lr": 5e-05,
+        "output_base_dir": "/Users/agreic/Documents/GitHub/model-runner/examples/test/",
+        "runner": "/Users/agreic/Documents/GitHub/model-runner/examples/test/print.py"
+    },
+    "10": {
+        "augment": false,
+        "batch_size": 16,
+        "data": "/Users/agreic/Documents/GitHub/model-runner/examples/test.json",
+        "job_index": 10,
+        "job_prefix": "my_experiment",
+        "lr": 0.001,
+        "output_base_dir": "/Users/agreic/Documents/GitHub/model-runner/examples/test/",
+        "runner": "/Users/agreic/Documents/GitHub/model-runner/examples/test/print.py"
+    },
+    "11": {
+        "augment": false,
+        "batch_size": 32,
+        "data": "/Users/agreic/Documents/GitHub/model-runner/examples/test.json",
+        "job_index": 11,
+        "job_prefix": "my_experiment",
+        "lr": 5e-05,
+        "output_base_dir": "/Users/agreic/Documents/GitHub/model-runner/examples/test/",
+        "runner": "/Users/agreic/Documents/GitHub/model-runner/examples/test/print.py"
+    },
+    "12": {
+        "augment": false,
+        "batch_size": 32,
+        "data": "/Users/agreic/Documents/GitHub/model-runner/examples/test.json",
+        "job_index": 12,
+        "job_prefix": "my_experiment",
+        "lr": 0.001,
+        "output_base_dir": "/Users/agreic/Documents/GitHub/model-runner/examples/test/",
+        "runner": "/Users/agreic/Documents/GitHub/model-runner/examples/test/print.py"
+    }
+}
