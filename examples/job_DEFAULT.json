@@ -1,0 +1,22 @@
+{
+    "job_parameters": {
+        "job_name": "job_pBASE",
+        "logfile_dir": "/cluster/home/agreicius/dell",
+        "memory": 4000,
+        "njobs_parallel": 1,
+        "processor_cores": 16,
+        "run_time": "04:00:00",
+        "scratch": 4000
+    },
+    "job_prefix": "job_pBASE",
+    "output_base_dir": "/cluster/home/agreicius/dell",
+    "runner": "/cluster/work/cobi/AG/my_program",
+    "runner_parameters": {
+        "data": [
+            "/cluster/work/cobi/AG/simulation_config.json"
+        ],
+        "border_file": [
+            "/cluster/work/cobi/AG/border_file.json",
+            "/cluster/work/cobi/AG/border_file2.json"
+    ]}
+}

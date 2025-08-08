@@ -82,7 +82,7 @@ def main():
                 array_config=modified_config, runner_params_path=runner_params_path
             )
             print(f"Launching job with command: {job_array_command}")
-            # os.system(job_array_command)
+            os.system(job_array_command)
 
     
     else: # Original workflow without parameter ranges
@@ -103,3 +103,5 @@ def main():
 
         # submit the job
         os.system(job_array_command)
+        # Debug, print the job instead:
+        # print(f"Launching job with command: {job_array_command}")
