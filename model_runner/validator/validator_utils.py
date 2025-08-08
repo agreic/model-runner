@@ -99,6 +99,7 @@ class JobArrayModel(BaseModel):
             "v100",
             "a100_40gb",
             "a100_80gb",
+            "rtx_4090"
         ]
 
         if v not in gpu_list:

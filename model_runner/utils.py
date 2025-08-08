@@ -122,7 +122,8 @@ def _write_job_array(array_config: ConfigModel, runner_params_path: str) -> str:
     job_array_command += f" --job-name={job_prefix}"
     job_array_command += f" --output={logfile_dir}%a"
     job_array_command += f" --time={run_time}"
-    job_array_command += f" --ntasks={processor_cores}"
+    job_array_command += f" --ntasks-per-node=1"
+    job_array_command += f" --cpus-per-task={processor_cores}"
     job_array_command += f" --tmp={scratch}"
     job_array_command += f" --mem-per-cpu={memory}"
 
